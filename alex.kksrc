@@ -1,13 +1,15 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-f90665b6-2c85-44a5-9485-fe958f8b01f5=
+switch-to-activity-c584b618-ee52-4f0b-afaa-1239841e18c5=
 
 [KDE Keyboard Layout Switcher][Global Shortcuts]
+Switch keyboard layout to English (UK)=
+Switch keyboard layout to English (US)=
 Switch to Next Keyboard Layout=Meta+Alt+K
 
 [StandardShortcuts]
 AboutApp=
 AboutKDE=
-Activate Next Tab=Ctrl+]; Ctrl+PgDown
+Activate Next Tab=Ctrl+PgDown; Ctrl+]
 Activate Previous Tab=Ctrl+[; Ctrl+PgUp
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
@@ -19,9 +21,9 @@ Clear=
 Close=Ctrl+W; Ctrl+Esc
 ConfigureNotifications=
 ConfigureToolbars=
-Copy=Ctrl+Ins; Ctrl+C
-CreateFolder=
-Cut=Shift+Del; Ctrl+X
+Copy=Ctrl+C; Ctrl+Ins
+CreateFolder=F10
+Cut=Ctrl+X; Shift+Del
 DeleteFile=Shift+Del
 DeleteWordBack=Ctrl+Backspace
 DeleteWordForward=Ctrl+Del
@@ -62,7 +64,7 @@ Print=Ctrl+P
 PrintPreview=
 Prior=PgUp
 Quit=Ctrl+Q
-Redo=Ctrl+Y; Ctrl+Shift+Z
+Redo=Ctrl+Shift+Z
 Reload=Refresh; F5
 RenameFile=F2
 Replace=Ctrl+R
@@ -74,7 +76,7 @@ Save=Ctrl+S
 SaveAs=Ctrl+Shift+S
 SaveOptions=
 SelectAll=Ctrl+A
-ShowHideHiddenFiles=Alt+.; Ctrl+H
+ShowHideHiddenFiles=Ctrl+H; Alt+.
 ShowMenubar=Ctrl+M
 ShowStatusbar=
 ShowToolbar=
@@ -87,12 +89,8 @@ Undo=Ctrl+Z
 Up=Alt+Up
 WhatsThis=Shift+F1
 Zoom=
-ZoomIn=Ctrl++; Ctrl+=
+ZoomIn=Ctrl+=; Ctrl++
 ZoomOut=Ctrl+-
-
-[discord-screenaudio][Global Shortcuts]
-toggleDeafen=
-toggleMute=
 
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=Meta+Alt+S
@@ -104,7 +102,7 @@ Toggle Touchpad=Touchpad Toggle
 
 [kded5][Global Shortcuts]
 Show System Activity=Ctrl+Shift+Esc; Ctrl+Esc
-display=Display; Meta+P
+display=Meta+P; Display
 
 [khotkeys][Global Shortcuts]
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=
@@ -129,7 +127,7 @@ Activate Window Demanding Attention=Meta+Ctrl+A
 Decrease Opacity=
 Edit Tiles=Meta+T
 Expose=Ctrl+F9
-ExposeAll=Launch (C); Ctrl+F10
+ExposeAll=Ctrl+F10; Launch (C)
 ExposeClass=Ctrl+F7
 ExposeClassCurrentDesktop=
 Increase Opacity=
@@ -294,9 +292,6 @@ stopmedia=Media Stop
 [org.kde.dolphin.desktop][Global Shortcuts]
 _launch=Meta+E
 
-[org.kde.kate.desktop][Global Shortcuts]
-_launch=Alt+S
-
 [org.kde.konsole.desktop][Global Shortcuts]
 NewTab=
 NewWindow=
@@ -304,7 +299,7 @@ _launch=Ctrl+Alt+T
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Search; Alt+F2; Meta+R; Alt+Space
+_launch=Alt+Space; Alt+F2; Meta+R; Search
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
 _launch=Meta+.
@@ -341,15 +336,8 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
-activate widget 115=
-activate widget 137=
-activate widget 158=
-activate widget 21=
 activate widget 3=Alt+F1
-activate widget 36=
-activate widget 69=
-activate widget 71=
-activate widget 93=
+activate widget 78=
 clear-history=
 clipboard_action=Meta+Ctrl+X
 cycle-panels=Meta+Alt+P
@@ -362,7 +350,7 @@ previous activity=Meta+Shift+Tab
 repeat_action=Meta+Ctrl+R
 show dashboard=Ctrl+F12
 show-barcode=
-show-on-mouse-pos=
+show-on-mouse-pos=Meta+V
 stop current activity=Meta+S
 switch to next activity=
 switch to previous activity=
